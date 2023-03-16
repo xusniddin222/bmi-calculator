@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* background: linear-gradient(#513cc5, #291519); */
+}
+body{
+    
+    background: linear-gradient(#291519ee, #513cc5   );
+}
+    
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid yellow;     */
+    background: linear-gradient(#513cc5, #291519e3);
+}
+
+.nav {
+    /* position: relative; */
+    display: flex;
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    /* border: 1px solid black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left {
+    display: flex;
+    display: block;
+    padding: 15% 50px;
+    /* border: 1px solid black; */
+
+}
+
+.detal {
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.inp {
+    padding: 15px;
+    width: 260px;
+    border-radius: 18px;
+    background-color: rgba(255, 166, 0, 0.651);
+    border: none;
+    transition: 0.5s;
+    border-bottom: 2px solid black;
+}
+
+.inp::placeholder {
+    color: black;
+    font-size: 17px;
+}
+
+.inp:hover {
+    /* background-color: gray; */
+    background-color: rgba(158, 96, 216, 0.808);
+    border: none;
+    border-top: none;
+}
+
+#btn {
+    /* position: relative; */
+    padding: 15px 30px;
+    margin-left: 10px;
+    /* margin-bottom: 300px; sa */
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(158, 96, 216, 0.808);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+}
+
+#btn:active {
+    background-color: rgba(255, 166, 0, 0.651);
+
+}
+
+.right {
+    /* width: 200px; */
+    position: relative;
+    display: flex;
+    display: block;
+    /* flex-wrap: wrap; */
+    /* margin-left: 50px; */
+    /* border: 1px solid black; */
+    /* padding: 10% 50px; */
+}
+
+#img {
+
+    width: 450px;
+    padding: 40px 10px;
+    margin-left: 20px;
+}
+
+.photo-text {
+    display: flex;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
